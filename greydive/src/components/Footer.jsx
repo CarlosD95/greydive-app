@@ -5,39 +5,31 @@ import { FcDepartment } from 'react-icons/fc';
 
 const Footer = () => {
   return (
-    <div className='Footer'>
+    <div className="Footer">
       <Link to="/">
-        <div className='logo-footer'>
-          <span className='loco-icon'>
+        <div className="logo-footer">
+          <span className="loco-icon">
             <FcDepartment />
           </span>
-          <span className='logo-text-1'>
-            simula
-          </span>
-          <span className='logo-text-2'>
-            cr.
-          </span>
+          <span className="logo-text-1">simula</span>
+          <span className="logo-text-2">cr.</span>
         </div>
       </Link>
-      <div >
-        Made By {" "}
-        <a 
-          href="https://github.com/CarlosD95"
-          target='blank'
-          rel='noreferrer'
-        >
-        <span className='github'>
-          <GoMarkGithub /> CarlosD95
-        </span> 
+      <div>
+        Made By{" "}
+        <a href="https://github.com/CarlosD95" target="blank" rel="noreferrer">
+          <span className="github">
+            <GoMarkGithub /> CarlosD95
+          </span>
         </a>
       </div>
-      <div className='copyright'>
-        &#169; Copyright 2022 
+      <div className="copyright">
+        &#169; Copyright 2022
         <br />
         All rights reserved.
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Footer

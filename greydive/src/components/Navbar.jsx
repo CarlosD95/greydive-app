@@ -19,7 +19,7 @@ const Navbar = () => {
   }
 
   useEffect(() => {
-    maxSize()
+    maxSize();
     window.removeEventListener("resize", null)
   }, [])
 
