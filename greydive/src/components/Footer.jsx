@@ -16,7 +16,7 @@ const Footer = () => {
         </div>
       </Link>
       <div>
-        Made By{" "}
+        Made By {" "}
         <a href="https://github.com/CarlosD95" target="blank" rel="noreferrer">
           <span className="github">
             <GoMarkGithub /> CarlosD95
